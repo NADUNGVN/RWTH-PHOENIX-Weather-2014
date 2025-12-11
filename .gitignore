@@ -1,0 +1,22 @@
+# Ignore everything at root level
+/*
+
+# Only include the path folder
+!path/
+
+# Keep .gitignore itself
+!.gitignore
+
+# Ignore video files (too large for GitHub)
+*.mp4
+*.avi
+*.mov
+
+# Ignore large model files
+*.pt
+*.pth
+*.h5
+
+# Ignore numpy arrays
+*.npy
+*.npz
